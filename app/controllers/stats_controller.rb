@@ -1,6 +1,11 @@
 class StatsController < ApplicationController
 
   def index
-    raise 'index'
+    p 'index'
+  end
+
+  def create
+    api = RestClient.get('https://api.github.com/users/ScottGledhill')
+    p api
   end
 end

@@ -1,7 +1,7 @@
 
 require 'rails_helper'
 
-feature 'stats' do
+feature 'stats', js:true do
   context 'can be displayed' do
     scenario 'through NBA API' do
       visit '/stats'
