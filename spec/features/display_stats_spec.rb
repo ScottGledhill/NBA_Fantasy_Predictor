@@ -1,7 +1,7 @@
 
 require 'rails_helper'
 
-feature 'stats', js:true do
+feature 'stats' do
   context 'can be displayed' do
     scenario 'view works' do
       visit '/stats'
