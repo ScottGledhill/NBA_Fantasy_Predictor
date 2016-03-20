@@ -4,6 +4,7 @@ group :test do
   gem 'capybara'
 end
 
+gem 'devise'
 gem 'selenium-webdriver'
 gem 'rest-client'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'

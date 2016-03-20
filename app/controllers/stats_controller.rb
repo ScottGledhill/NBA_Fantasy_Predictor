@@ -5,6 +5,6 @@ class StatsController < ApplicationController
     @apijson = JSON.parse(@api)
   end
 
-  def create
+  def create  
   end
 end
