@@ -4,6 +4,7 @@ group :test do
   gem 'capybara'
 end
 
+gem 'dotenv'
 gem 'devise'
 gem 'selenium-webdriver'
 gem 'rest-client'

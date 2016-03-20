@@ -69,6 +69,7 @@ GEM
       thread_safe (~> 0.1)
       warden (~> 1.2.3)
     diff-lcs (1.2.5)
+    dotenv (2.1.0)
     erubis (2.7.0)
     execjs (2.6.0)
     ffi (1.9.10)
@@ -199,6 +200,7 @@ DEPENDENCIES
   capybara
   coffee-rails (~> 4.1.0)
   devise
+  dotenv
   jbuilder (~> 2.0)
   jquery-rails
   pg (~> 0.15)
