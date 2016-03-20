@@ -4,6 +4,7 @@ group :test do
   gem 'capybara'
 end
 
+gem 'omniauth-facebook'
 gem 'dotenv'
 gem 'devise'
 gem 'selenium-webdriver'
