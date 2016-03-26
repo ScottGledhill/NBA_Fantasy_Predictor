@@ -4,6 +4,7 @@ group :test do
   gem 'capybara'
 end
 
+gem 'dotenv-rails', :groups => [:development, :test]
 gem 'omniauth-facebook'
 gem 'dotenv'
 gem 'devise'

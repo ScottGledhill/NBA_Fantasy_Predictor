@@ -11,5 +11,4 @@
 /log/*
 !/log/.keep
 /tmp
-.env
-/config/locales/secrets
+.env.RAILS_ENV
